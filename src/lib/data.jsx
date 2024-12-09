@@ -142,3 +142,163 @@ export const bottleImages = [
     },
     
   ];
+
+  export const cocktails =[
+    {
+      spiritName:'BEACON BOURBON',
+      image:'/images/beaconbourbonbg.jpg',
+      cocktails:[
+        {
+          cocktailName:'Verplank Ave',
+          cocktailIngredients:[
+            '1 oz Beacon Bouron', '1 oz Beacon Apple Brandy', '1 oz Passion Fruit Juice', 'Dash of Pomegranate Juice', 'Dash of Orange Bitters'
+          ],
+          cocktailInstructions:'Shake over ice, strain into cocktail class.'
+        },
+        {
+          cocktailName:'Boulevardier',
+          cocktailIngredients:[
+            '2 oz Beacon Bouron', '1 oz Gran Classico', '1 oz Carpano Antica'
+          ],
+          cocktailInstructions:'Stir in mixing glass with ice, strain into cocktail glass, garnish with cherry.'
+        },
+        {
+          cocktailName:'Derby',
+          cocktailIngredients:[
+            '1 oz Beacon Bouron', '1 oz Carpano Antica', '1/2 oz Orange Curacao', '3/4 oz Fresh Lime Juice'
+          ],
+          cocktailInstructions:'Shake over ice, straing into cocktail glass, garnish with mint.'
+        },
+        {
+          cocktailName:'The Maple Leaf',
+          cocktailIngredients:[
+            '2 oz Beacon Bouron', '1 oz Maple Syrup', '1/2 oz Fresh Lemon Juice', 'Dash of cinnamon'
+          ],
+          cocktailInstructions:'Shake vigorously over ice, strain into cocktail glass. Garnish with fresh apple slice.'
+        },
+      ]
+
+    },
+    {
+      spiritName:'MAID OF THE MEADOW',
+      image:'/images/maidbg.jpg',
+      cocktails:[
+        {
+          cocktailName:'Hot Susie',
+          cocktailIngredients:[
+            '2 oz Beacon American Whiskey', '1 oz Maid of the Meadow Vodka', '1 oz Canton Ginger Liqueur'
+          ],
+          cocktailInstructions:'Mix in Irish coffee glass, add boiling water, garnish with clove studded lemon.'
+        },
+        {
+          cocktailName:'Julietta',
+          cocktailIngredients:[
+            '2 oz Maid of the Meadow Vodka', '1 oz Pomegranate Juice', '1 oz English Breakfast Tea, cooled', '1/2 oz Fresh Lemon Juice'
+          ],
+          cocktailInstructions:'Shake over ice, strain into a cocktail glass.'
+        },
+        {
+          cocktailName:'Modern Mule',
+          cocktailIngredients:[
+            '2 oz Maid of the Meadow Vodka', '2 oz Saranac Ginger Beer', '1/2 oz Fresh Lemon Juice'
+          ],
+          cocktailInstructions:'Stir in mixing glass, serve in chilled copper mug. Garnish with lemon.'
+        },
+        {
+          cocktailName:'The Obituary',
+          cocktailIngredients:[
+            '1 oz Beacon Bouron', '1 oz Great 9 Gin', '1/4 oz Fresh Lemon Juice', 'Dash of Orange Bitters'
+          ],
+          cocktailInstructions:'Stir in mixing glass until well chilled. Strain into cocktail glass. Garnish with orange peel.'
+        },
+      ]
+
+    },
+    {
+      spiritName:'GREAT 9 GIN',
+      image:'/images/ginbg.jpg',
+      cocktails:[
+        {
+          cocktailName:'The Aviation',
+          cocktailIngredients:[
+            '2.5 oz Great 9 Gin', '3/5 oz Fresh Lemon Juice', '3 Dashes of Maraschino Juice'
+          ],
+          cocktailInstructions:'Shake over ice, strain into cocktail glass, garnish with twist of lemon.'
+        },
+        {
+          cocktailName:'Blue Moon',
+          cocktailIngredients:[
+            '2 oz Great 9 Gin', '1/2 oz Crème Yvetten', '1/2 oz Fresh Lemon Juice'
+          ],
+          cocktailInstructions:'Shake with ice, strain into cocktail glass, garnish with a twist of lemon.'
+        },
+        {
+          cocktailName:'Corpse Reviver',
+          cocktailIngredients:[
+            '1 oz Great 9 Gin', '1 oz Cointreu','1 oz Lillet Blanc', '1 oz Fresh Lemon Juice', '1-3 drops of Absinthe'
+          ],
+          cocktailInstructions:'Shake over ice, strain into chilled cocktail glass, garnish with cherry at bottom of glass.'
+        },
+        {
+          cocktailName:'84West',
+          cocktailIngredients:[
+            '3 oz Great 9 Gin', '1/2 oz DrinkMoreGood', 'Cucmber Mint Earl Grey Syrup','Dash of Dutchess Prohibitters'
+          ],
+          cocktailInstructions:'Stir in mixing glass with ice, strain into cocktail glass.'
+        },
+      ]
+
+    },
+    {
+      spiritName:'VISKILL VODKA',
+      image:'/images/vodkabg.jpg',
+      cocktails:[
+        {
+          cocktailName:`Grannie's Strudel`,
+          cocktailIngredients:[
+            '2 oz Viskill Vodka', '3oz Apple Cider', 'Dash of Simple Syrup(brown)','Dash of Cinnamon', 'Drop of Vanilla Extract'
+          ],
+          cocktailInstructions:'Shake over ice, pour into highball glass.'
+        },
+        {
+          cocktailName:'Madame Brett',
+          cocktailIngredients:[
+            '2 oz Viskill Vodka', '1 oz Apricot Brandy', '1/2 oz Fresh Lemon Juice', "Dash of Agnostura Bitters"
+          ],
+          cocktailInstructions:'Shake with ice, strain into cocktail glass, garnish with a twist of lemon.'
+        },
+        
+      ]
+
+    },
+    {
+      spiritName:'BEACON APPLE BRANDY',
+      image:'/images/applebg.jpg',
+      cocktails:[
+        {
+          cocktailName:`Beacon Apple Brandy Old Fashioned`,
+          cocktailIngredients:[
+            '1 1/2 oz Beacon Apple Brandy', '3/4 oz Brown Sugar Simple', '3 Dashes of Bitters','1 shake of cinnamon'
+          ],
+          cocktailInstructions:'Stir 20 seconds and strain over ice. Top with apple slice with a sprinkle of cinnamon.'
+        },
+        {
+          cocktailName:'Beacon Apple Brandy Side Car',
+          cocktailIngredients:[
+            '1 1/2 oz Beacon Apple Brandy', '3/4 oz Cointreau', '1/2 oz Fresh Lemon Juice',
+          ],
+          cocktailInstructions:'Sugar rim a coupé glass. Shake and strain. Garnish with lemon twist and apple slice.'
+        },
+        {
+          cocktailName:'Beacon Apple Brandy Mule',
+          cocktailIngredients:[
+            '1 1/2 oz Beacon Apple Brandy','1/2 oz Fresh Lemon Juice','2 oz Saranac Ginger Beer'
+          ],
+          cocktailInstructions:'Fill with ginger beer in copper mug. Top with speared apple slice and lemon.'
+        },
+        
+      ]
+
+    },
+
+  ]
