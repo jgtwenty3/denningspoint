@@ -17,6 +17,7 @@ const BottleCard = ({ image, description, buttonText, onButtonClick }) => {
         end: 'bottom top',
         scrub: 1,
         ease: 'linear',
+        
       }
     });
 
@@ -35,7 +36,7 @@ const BottleCard = ({ image, description, buttonText, onButtonClick }) => {
   }, []);
 
   return (
-    <div ref={cardRef} className="bottle-card flex bg-slate border-2 border-white rounded-lg overflow-hidden shadow-lg shadow- transform transition-transform hover:scale-105 hover:shadow-xl max-w-4xl mx-auto">
+    <div ref={cardRef} className="bottle-card flex bg-white border-2 border-white rounded-lg overflow-hidden shadow-lg shadow- transform transition-transform hover:scale-105 hover:shadow-xl max-w-4xl mx-auto">
       <div className="w-2/5 p-4">
         <img 
           src={image} 
@@ -44,10 +45,10 @@ const BottleCard = ({ image, description, buttonText, onButtonClick }) => {
         />
       </div>
       <div className="w-3/5 p-4 flex flex-col justify-center card-content">
-        <p className="text-white font-josefin text-xl mb-4">{description}</p>
+        <p className="text-black font-josefin text-xl mb-4">{description}</p>
         <button 
           onClick={onButtonClick} 
-          className="bg-teal text-white font-josefin rounded-full px-6 py-2 transition-colors duration-300 hover:bg-green-700"
+          className="bg-teal text-white font-josefin rounded-full px-6 py-2 transition-colors duration-300 hover:bg-slate"
         >
           {buttonText}
         </button>
