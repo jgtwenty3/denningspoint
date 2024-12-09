@@ -302,3 +302,39 @@ export const bottleImages = [
     },
 
   ]
+
+  export const servicesData1 = {
+    title: 'DISTILLING',
+    subtitle: 'CONTRACT DISTILLING',
+    text: 'Have a great idea for a new spirit but need an experienced distilling team to make your vision a reality? We are able to provide state-of-the-art contract services for both blending and distilling projects. Spirits can be produced under our Farm Distillery license or Microdistilling license depending on the parameters of the project. Please keep in mind you must be in process of applying for a DSP or other appropriate license with the TTB and SLA.',
+    services: [
+      '- Product Formulation',
+      '- TTB formula approvals',
+      '- COLA approvals',
+      '- Recommendations for agricultural product',
+      '- Acquistion of materials',
+      '- Hands-on production from complex formulations for liqueurs and gins to mashing,fermenting, distilling, and barreling for aged spirts',
+      '-Post-production warehousing'
+    ]
+  };
+  
+  export const servicesData2 = {
+    title: 'BOTTLING',
+    subtitle: 'CONTRACT BOTTLING',
+    text: 'If you have your liquid completed and need a full service bottling team we offer competitive rates on everything from simple liter-filled bottling to complex closures and label application.',
+    services: [
+      '- Bottle and closure applications',
+      '- Case box procurement',
+      '- Bottle filling, sealing, labeling, casing ',
+      '- Canning or carbonation available through subcontracted services',
+      '- Shipment preparation',
+      '- Warehousing',
+      '- Inventory control'
+    ]
+  };
+
+  export const contactData = { 
+    title: 'CONTACT', 
+    subtitle: '',
+    text: 'Please email info@denningspoint.com a brief description of your project and we will be happy to get your project started. Please note, you will need to have already filed your TTB applications and state licenses before we can provide pricing information. ', 
+    services: [ 'Email: info@denningspointdistillery.com', 'Phone: 845-476-8413 (messaging service)', 'Address: 10 N Chestnut St, Beacon, NY 12508' ] };

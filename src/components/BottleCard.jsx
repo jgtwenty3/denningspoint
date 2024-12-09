@@ -36,7 +36,7 @@ const BottleCard = ({ image, description, buttonText, onButtonClick }) => {
   }, []);
 
   return (
-    <div ref={cardRef} className="bottle-card flex bg-white border-2 border-white rounded-lg overflow-hidden shadow-lg shadow- transform transition-transform hover:scale-105 hover:shadow-xl max-w-4xl mx-auto">
+    <div ref={cardRef} className="bottle-card flex bg-white border-2 border-white rounded-lg overflow-hidden shadow-lg transform transition-transform hover:scale-105 hover:shadow-xl max-w-4xl mx-auto">
       <div className="w-2/5 p-4">
         <img 
           src={image} 

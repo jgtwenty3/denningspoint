@@ -63,7 +63,7 @@ const Spirits = () => {
             <div 
               key={index} 
               ref={addToRefs} 
-              className={`my-10 p-5 rounded-lg shadow-lg flex flex-col md:flex-row ${index % 2 === 0 ? 'bg-slate text-white' : 'bg-amber text-black'}`}
+              className={`my-10 p-5 rounded-lg shadow-lg shadow-black flex flex-col md:flex-row ${index % 2 === 0 ? 'bg-slate text-white' : 'bg-amber text-black'}`}
             >
               <img src={spirit.image} alt={spirit.header} className="w-full md:w-1/3 h-auto object-contain mb-4 md:mb-0 md:mr-6" />
               <div className="flex flex-col justify-center card-content">
@@ -74,7 +74,7 @@ const Spirits = () => {
                 <p className={`text-base sm:text-lg md:text-xl mb-4 ${index % 2 === 0 ? 'text-white' : 'text-black'}`}>{spirit.description}</p>
                 <button
                   onClick={spirit.onButtonClick}
-                  className={`rounded-full px-4 py-2 sm:px-6 sm:py-2 md:px-8 md:py-3 transition-colors duration-300 ${index % 2 === 0 ? 'bg-teal text-white hover:bg-green-700' : 'bg-black text-white hover:bg-gray-700'}`}
+                  className={`rounded-full px-4 py-2 sm:px-6 sm:py-2 md:px-8 md:py-3 transition-colors duration-300 ${index % 2 === 0 ? 'bg-teal text-white hover:bg-white hover:text-teal' : 'bg-teal text-white hover:bg-white hover:text-teal'}`}
                 >
                   {spirit.buttonText}
                 </button>
