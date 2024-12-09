@@ -38,7 +38,7 @@ const About = () => {
 
   return (
     <div>
-      <Hero backgroundImage="/images/Spirits-2.jpg" logoImage="/images/logo.png" animationDuration={6} />
+      <Hero backgroundImage="/images/Spirits-2.jpg" logoImage="/images/logo.png" animationDuration={3} />
       <div className='mt-10 mx-auto max-w-7xl p-5'>
         <div className='flex flex-col md:flex-row items-center'>
           <img 

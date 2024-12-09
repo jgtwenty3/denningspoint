@@ -9,7 +9,7 @@ import About from './pages/About';
 import Spirits from './pages/Spirits';
 import Cocktails from './pages/Cocktails';
 import Services from './pages/Services';
-import VisitUs from './pages/VisitUs';
+import Visit from './pages/Visit';
 import Buy from './pages/Buy';
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
           <Route path="/spirits" element={<Spirits />} />
           <Route path="/cocktails" element={<Cocktails />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/visit-us" element={<VisitUs />} />
+          <Route path="/visit" element={<Visit />} />
           <Route path="/buy" element={<Buy />} />
         </Routes>
         <Footer />

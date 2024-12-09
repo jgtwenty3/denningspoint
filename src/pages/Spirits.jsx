@@ -56,7 +56,7 @@ const Spirits = () => {
 
   return (
     <div className="font-josefin">
-      <Hero backgroundImage="/images/Barrels.jpg" logoImage="/images/logo.png" animationDuration={6} />
+      <Hero backgroundImage="/images/Barrels.jpg" logoImage="/images/logo.png" animationDuration={3} />
       <div className="mt-10 mx-auto max-w-7xl p-5">
         <div>
           {spirits.map((spirit, index) => (
